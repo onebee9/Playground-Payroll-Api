@@ -3,10 +3,10 @@
 ## Running the application:
 
 - run `bundle install`
-- run `rails db:create`
-- run `rails db:migrate`
-- run `rails db:seed` (To populate the 2023 pay periods and job group data)
+- run `rake db:setup`
 - run `rails s`
+- run `bundle exec sidekiq` (leave running)
+- run `redis-server` (leave running)
 
 ## Tests
 
