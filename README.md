@@ -134,7 +134,7 @@ Unsuccessful response: { error: 'Failed to generate report' }
 - Proper job notification so users know if there are any hiccups
 - Implement a more scalable database like Postgres
 
-## Compromises made due to the time crunch ()
+## Compromises made due to the time crunch
 
 - Testing
 
